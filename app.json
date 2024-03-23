@@ -3,7 +3,7 @@
   "website": "https://github.com/khalid-official",
   "description": "Make sure to give a ⭐  (≧▽≦)",
   "repository": "https://github.com/Khalid-official/AUTO-VIEW-STATUS-BOT",
-  "logo": "https://raw.githubusercontent.com/Khalid-official/AUTO-VIEW-STATUS-BOT/master/src/pictures/heroku-icon.jpg",
+  "logo": "https://raw.githubusercontent.com/Khalid-official/AUTO-VIEW-STATUS-BOT/master/src/heroku-icon.jpg",
   "success_url": "https://github.com/Khalid-official/AUTO-VIEW-STATUS-BOT",
   "keywords": [
     "nodejs",
