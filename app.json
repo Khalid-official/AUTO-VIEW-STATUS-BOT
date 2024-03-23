@@ -1,0 +1,38 @@
+{
+  "name": "AUTO-VIEW-STATUS-BOT",
+  "website": "https://github.com/khalid-official",
+  "description": "Make sure to give a ⭐  (≧▽≦)",
+  "repository": "https://github.com/Khalid-official/AUTO-VIEW-STATUS-BOT",
+  "logo": "https://raw.githubusercontent.com/Khalid-official/AUTO-VIEW-STATUS-BOT/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/Khalid-official/AUTO-VIEW-STATUS-BOT",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "themysticbot",
+    "themystic-bot",
+    "themystic-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
