@@ -22,6 +22,9 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
+### Information
+- Change creds.json file replace with yours in [creds.json](https://github.com/Khalid-official/AUTO-VIEW-STATUS-BOT/blob/main/session/creds.json)
+- 
 #### **DEPLOY TO HEROKU**
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/khalid-official/AUTO-VIEW-STATUS-BOT)
 
