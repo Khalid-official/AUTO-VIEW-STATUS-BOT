@@ -1,1 +1,1 @@
-web: node . --server
+worker: node statusview.js
