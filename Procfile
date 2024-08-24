@@ -1,1 +1,1 @@
-worker: node dreaded.js
+web: node . --server
