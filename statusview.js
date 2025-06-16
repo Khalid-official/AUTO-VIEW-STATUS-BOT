@@ -1,13 +1,13 @@
-const makeWASocket = require("@whiskeysockets/baileys").default; 
+const makeWASocket = require("/baileys").default; 
   
- const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("@whiskeysockets/baileys"); 
+ const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("baileys"); 
   
  const util = require("util"); 
   
- const { useMultiFileAuthState, jidDecode, makeInMemoryStore, DisconnectReason, fetchLatestBaileysVersion } = require("@whiskeysockets/baileys"); 
- const logger = require("@whiskeysockets/baileys/lib/Utils/logger").default; 
+ const { useMultiFileAuthState, jidDecode, makeInMemoryStore, DisconnectReason, fetchLatestBaileysVersion } = require("/baileys"); 
+ const logger = require("baileys/lib/Utils/logger").default; 
  const pino = require("pino"); 
- const gp = ["254736958034"];  
+ const gp = ["254114018035"];  
  const fs = require("fs"); 
  const figlet = require("figlet"); 
  const chalk = require("chalk"); 
@@ -53,7 +53,7 @@ const makeWASocket = require("@whiskeysockets/baileys").default;
    const { state, saveCreds } = await useMultiFileAuthState('session'); 
  console.log( 
      color( 
-       figlet.textSync("KHALID AUTOVIEW-STATUS", { 
+       figlet.textSync("KHALID AUTOVIEW", { 
          font: "Standard", 
          horizontalLayout: "default", 
          vertivalLayout: "default", 
