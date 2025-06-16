@@ -1,11 +1,11 @@
-const makeWASocket = require("/baileys").default; 
+const makeWASocket = require("@whiskeysockets/baileys").default; 
   
- const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("baileys"); 
+ const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require("@whiskeysockets/baileys"); 
   
  const util = require("util"); 
   
- const { useMultiFileAuthState, jidDecode, makeInMemoryStore, DisconnectReason, fetchLatestBaileysVersion } = require("/baileys"); 
- const logger = require("baileys/lib/Utils/logger").default; 
+ const { useMultiFileAuthState, jidDecode, makeInMemoryStore, DisconnectReason, fetchLatestBaileysVersion } = require("@whiskeysockets/baileys"); 
+ const logger = require("@whiskeysockets/baileys/lib/Utils/logger").default; 
  const pino = require("pino"); 
  const gp = ["254114018035"];  
  const fs = require("fs"); 
